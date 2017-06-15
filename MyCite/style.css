@@ -23,17 +23,105 @@ ul li{
 	display: inline;
 
 }
-.pics{
-	padding: 4% 35% 5% 35%;
-	height: 20%;
-}
+
 .icon{
 	text-align: center;
 	clear: both;
 	width: 80px;
-
 }
-.table{
-	border: 1px solid #414141;
-	border-radius: 50px;	
+
+.line{
+	height: 30%;
+}
+table{
+	padding: 2% 30% 5% 32%;
+	height: 20%;
+	border-spacing: 20px 20px;	
+}
+
+.kevin{
+	background-color:#0a3a5e;
+	border: 2px solid #414141;
+	border-radius: 50px;
+	color:white;	
+}
+.kevin:hover{
+	background-image: url(images/kevin.jpg);
+	background-size: cover; 
+}
+
+.dennis{
+	background-color:#20738f;
+	border: 2px solid #414141;
+	border-radius: 50px;
+	color:white;	
+}
+.dennis:hover{
+	background-image: url(images/dennis.jpg);
+	background-size: cover; 	
+}
+
+.hedwig{
+	background-color:#fbd55e;
+	border: 2px solid #414141;
+	border-radius: 50px;
+	color:white;	
+}
+.hedwig:hover{
+	background-image: url(images/hedwig.jpg);
+	background-size: cover; 
+}
+
+.patricia{
+	background-color:#961919;
+	border: 2px solid #414141;
+	border-radius: 50px;
+	color:white;	
+}
+.patricia:hover{
+	background-image: url(images/patricia1.jpg);
+	background-size: cover; 
+}
+
+.barry{
+	background-color:#404040;
+	border: 2px solid #414141;
+	border-radius: 50px;
+	color:white;	
+}
+.barry:hover{
+	background-image: url(images/barry1.jpg);
+	background-size: cover; 
+}
+
+.orwell{
+	background-color:#0e7d3e;
+	border: 2px solid #414141;
+	border-radius: 50px;
+	color:white;	
+}
+.orwell:hover{
+	background-image: url(images/orwell.jpg);
+	background-size: cover; 
+}
+
+.jade{
+	background-color: #ff7979;
+	border: 2px solid #414141;
+	border-radius: 50px;
+	color:white;	
+}
+.jade:hover{
+	background-image: url(images/jade.jpg);
+	background-size: cover; 
+}
+.beast{
+	background-color: #000000;
+	border: 2px solid #414141;
+	border-radius: 50px;
+	color:white;		
+}
+.beast:hover{
+	background-image: url(images/beast.jpg);
+	background-size: cover; 
 }
