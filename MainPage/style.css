@@ -1,0 +1,55 @@
+.mainimg{
+	margin-top: 10%;
+	margin-left: 15%;
+}
+h1{
+	font-size: 3rem ;
+	font-family: 'Vibur', cursive;
+}
+h2{
+	font-size: 1.2rem;
+	color: #9b9ea3;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+button{
+	background:#3897f0;
+	border-radius: 5px;
+	color: white;
+	width:65%;
+	padding: 5px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+.cont{
+	float: right;
+	background: white;
+	border: 1px solid #e6e6e6;
+	width:28%	;
+	text-align: center;
+	margin-right: 20%;
+	margin-top: 5%;
+}
+body{
+	background:#fafafa ;
+}
+h3{
+	font-size: 1rem;
+	color: #9b9ea3;
+	font-family: 'Source Sans Pro', sans-serif;	
+}
+input{
+	padding: 5px;
+	width:60%;
+	margin:2.5%;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;		
+}
+ul li{
+	list-style-type: none;
+	display: inline;
+	font-family: 'Source Sans Pro', sans-serif;	
+	font-size: 0.8rem;
+	margin-left: 4%;
+	text-align: center;
+}
