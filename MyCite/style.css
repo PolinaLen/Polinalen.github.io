@@ -1,0 +1,39 @@
+body{
+	background-image: url(images/wallpaper.png);
+	background-size: cover;
+}
+.brush{
+	background-image: url(images/brush.png);
+	background-size: cover;
+	width: 400px;
+	height: 160px;
+	margin: 0 30% 0 40%;
+}
+.mainpage{
+	padding-top: 22%;
+	padding-left: 10%;	
+}
+.span{
+	color: white;
+	padding: 2%;	
+	text-decoration: none;
+}
+ul li{
+	list-style-type: none;
+	display: inline;
+
+}
+.pics{
+	padding: 4% 35% 5% 35%;
+	height: 20%;
+}
+.icon{
+	text-align: center;
+	clear: both;
+	width: 80px;
+
+}
+.table{
+	border: 1px solid #414141;
+	border-radius: 50px;	
+}
