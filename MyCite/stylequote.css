@@ -1,6 +1,7 @@
 body{
 	background-image: url(images/wallpaper2.png);
 	background-size: cover;
+	background-attachment: fixed; 
 }
 .brush{
 	background-image: url(images/brush.png);
@@ -22,4 +23,25 @@ ul li{
 	list-style-type: none;
 	display: inline;
 
+}
+
+.quote{
+	border: 1px solid #414141;
+	margin: 2% 29% 0 33%;
+	height: 1200px;
+}
+.portraits{
+	margin:5% 0 0 3%;
+	float: left;
+	width: 30%;
+}
+.speech{
+	float: right;
+	margin: 8% 10% 0 0 ; 
+	width: 49%;
+	text-align: center;
+	font-size: 15px;
+}
+span{
+	color:#0a3a5e;
 }
