@@ -24,3 +24,25 @@ ul li{
 	display: inline;
 
 }
+.facts{
+	border: 1px solid #414141;
+	margin: 2% 29% 0 33%;
+	height: 880px;
+}
+.right{
+	float: right;
+	width: 30%;
+	margin: 2%;
+}
+.center{
+	margin: 4%;	
+}
+.left{
+	float: left;
+	width: 30%;
+	margin: 2%;
+}
+span{
+	font-size: 20px;
+	font-weight: bold;
+}
