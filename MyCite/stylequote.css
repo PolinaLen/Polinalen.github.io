@@ -2,6 +2,7 @@ body{
 	background-image: url(images/wallpaper2.png);
 	background-size: cover;
 	background-attachment: fixed; 
+	background-position: center;
 }
 .brush{
 	background-image: url(images/brush.png);
@@ -29,6 +30,10 @@ ul li{
 	border: 1px solid #414141;
 	margin: 2% 29% 0 33%;
 	height: 1200px;
+	
+}
+.clear{
+	clear:both;
 }
 .portraits{
 	margin:5% 0 0 3%;
