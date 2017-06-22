@@ -1,0 +1,33 @@
+body{
+	background:url(../images/fon.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.name{
+	font-family: 'Shadows Into Light', cursive;
+
+}
+.jumbotron{
+	margin: 10% 35% 10% 35% ;
+	background-color: rgba(0,0,0,0);
+	color:white;
+	text-align: center;
+}
+.note{
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em;
+}
+.button{
+	background-color: #0e7d3e;
+	border: 0;
+}
+.caption{
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+}
+.works{
+	background-color: rgba(225,225,225,0.6)
+}
+.comm{
+	font-size: 1.5em;
+}
