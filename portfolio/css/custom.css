@@ -31,3 +31,26 @@ body{
 .comm{
 	font-size: 1.5em;
 }
+.footer-main{
+	background-color: #272727;
+	overflow: hidden;
+	height: 150px;
+	text-align: center;
+}
+.iconfooter{
+	display: inline;
+	width: 100%;
+	margin: 5% 40% 0 40%;
+	
+	overflow: hidden;
+}
+.icon{
+	margin: 0 1% 0 1%;
+	padding: 2% 0% 0% 0%;
+}
+.mail{
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: 'Bubbler One', sans-serif;
+}
