@@ -54,3 +54,7 @@ body{
 	color: white;
 	font-family: 'Bubbler One', sans-serif;
 }
+.border{
+	border-radius: 50px;
+	border:2px solid white;
+}
