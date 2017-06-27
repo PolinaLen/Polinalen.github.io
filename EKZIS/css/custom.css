@@ -127,6 +127,7 @@ body{
 .phone{
 	margin: 2% 30% 2% 30%;
 	text-align: center;
+	line-height: 1.7;
 	font-size: 1.2em;
 	color: white;
 	font-family: 'Poiret One', cursive;
