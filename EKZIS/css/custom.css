@@ -1,4 +1,4 @@
-html,body{
+html, body{
 	background: url(../images/6.jpg);
 	background-attachment: fixed;
 	background-size: cover;
@@ -68,10 +68,6 @@ html,body{
 	border:none;
 	padding: 0;
 	margin: 10% 10% 5% 10%;
-}
-.inline{
-	display: inline;
-
 }
 .caption{
 	text-align: center;
