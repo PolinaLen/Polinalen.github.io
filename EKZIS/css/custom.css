@@ -1,3 +1,8 @@
+body{
+	background: url(../images/6.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
 .leftrow{
 	float: left;
 	width: 45%;
@@ -15,11 +20,7 @@
 	border:none; 
 }
 
-body{
-	background: url(../images/6.jpg);
-	background-attachment: fixed;
-	background-size: cover;
-}
+
 .headline{
 	width: 30%;	
 	margin: 0%;
