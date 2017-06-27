@@ -1,13 +1,10 @@
-.icon{
-	width: 35%;
-	margin: 0;
+.leftrow{
 	float: left;
-}
-.comnam{
-	color: white;
-	font-family: 'Poiret One', cursive;
-	margin: 12% 5% 0 12%;
-	font-size: 2em | inherit; 
+	width: 45%;
+	margin: 1% 0 1% 0;
+}	
+.down{
+	margin-top: 2%;
 }
 .ekzis{
 	width: 70%;
@@ -17,9 +14,7 @@
 	background-color: rgba(36,41,46,0.9);
 	border:none; 
 }
-.turn{
-	clear: left;
-}
+
 body{
 	background: url(../images/6.jpg);
 	background-attachment: fixed;
@@ -28,10 +23,6 @@ body{
 .headline{
 	width: 30%;	
 	margin: 0%;
-}
-
-.inline{
-	display: inline;
 }
 .padding{
 	padding: 2% 5% 2% 0; 
