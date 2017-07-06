@@ -27,7 +27,7 @@ $(document).ready(function(){
 		$('#su').modal();
 	});
 	$('#ppoly').click(function(){
-		$('#poly$').modal();
+		$('#poly').modal();
 	});
 	$('#phelp').click(function(){
 		$('#help').modal();
