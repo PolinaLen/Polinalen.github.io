@@ -147,3 +147,15 @@ html, body{
 	padding:5% 0 10% 0;
 	height: 90%;
 }
+@media (max-width: 767px){
+	.textabout{
+	font-family: 'Poiret One', cursive;
+	font-size:2vh;
+	color: white;
+	margin: 3%;
+	line-height: 1;
+	}
+	h1{
+		font-size:2.5vh; 
+	}	
+}

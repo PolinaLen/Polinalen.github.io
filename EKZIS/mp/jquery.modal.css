@@ -45,3 +45,12 @@
   -ms-border-radius: 8px;
   border-radius: 8px;
 }
+@media (max-width: 767px)
+{
+  .modal {
+  display: none;
+  margin: 20% 0 20% 0;
+  padding:5%;
+  font-size: 2vh;
+}   
+}
