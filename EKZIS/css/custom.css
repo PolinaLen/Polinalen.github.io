@@ -134,3 +134,16 @@ html, body{
 	color: white;
 	font-family: 'Poiret One', cursive;
 }
+.friends{
+	padding-top: 4%;
+}
+.mak{
+	margin-top: 5%;
+}
+.onec :hover{
+	cursor: pointer;
+}
+.rama{
+	padding:5% 0 10% 0;
+	height: 90%;
+}

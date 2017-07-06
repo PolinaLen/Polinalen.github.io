@@ -14,6 +14,7 @@
     <link rel="shortcut icon" href="images/icon1.png">
 
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,6 +22,8 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="mp/jquery.modal.css">
+
   </head>
   <body>
 
@@ -55,7 +58,7 @@
       <ul class="nav navbar-nav navbar-right down">
         <li><a class="font" href="#about">О нас</a></li>
         <li><a class="font" href="#partner">Партнеры</a></li>
-        <li><a class="font" href="#help">Контакты</a></li>
+        <li><a class="font" href="#contact">Контакты</a></li>
         
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -71,41 +74,84 @@
         <div class="row">
 
        
-            <div class="col-md-3 col-sm-4 col-xs-4 onec">              
+            <div class="col-md-3 col-sm-4 col-xs-4 onec" id="p1c">              
               <img src="images/1c.png" width="100%" data-toggle="tooltip" data-placement="bottom" title="Внедрение, конфигурирование и сопровождение типовых продуктов 1С">
             </div>
-         
-        
-            <div class=" col-md-3 col-sm-4 col-xs-4 onec"> 
+                        
+            <div class=" col-md-3 col-sm-4 col-xs-4 onec" id="pwebs"> 
               <img src="images/webs.png" width="100%" data-toggle="tooltip" data-placement="bottom" title="Разработка веб-сайтов и их сопровождение">
             </div>
          
-            <div class="col-md-3 col-sm-4 col-xs-4 onec">
+            <div class="col-md-3 col-sm-4 col-xs-4 onec" id="pprog">
               <img src="images/prog.png" width="100%" data-toggle="tooltip" data-placement="bottom" title="Разработка программных продуктов">
             </div>
         
-            <div class=" col-md-3 col-sm-4 col-xs-4 onec">
+            <div class=" col-md-3 col-sm-4 col-xs-4 onec" id="psoftware">
               <img src="images/Software.png" width="100%" data-toggle="tooltip" data-placement="bottom" title="Разработка программного обеспечения сайтов и порталов">
             </div>
 
-            <div class="col-md-3 col-sm-4 col-xs-4 onec">
-              <img src="images/hardware.png" width="100%" data-toggle="tooltip" data-placement="bottom" title="Программирование микроконтроллеров">
+            <div class="col-md-3 col-sm-4 col-xs-4 onec" id="psu">
+              <img src="images/su.png" width="100%" data-toggle="tooltip" data-placement="bottom" title="Разработка систем учета">
             </div>
 
-            <div class="col-md-3 col-sm-4 col-xs-4 onec">
+            <div class="col-md-3 col-sm-4 col-xs-4 onec" id="ppoly">
               <img src="images/poly.png" width="100%" data-toggle="tooltip" data-placement="bottom" title="Полиграфия">
             </div>
 
-            <div class="col-md-3 col-md-push-0 col-sm-4 col-sm-push-2 col-xs-4 col-xs-push-2 onec">
+            <div class="col-md-3 col-md-push-0 col-sm-4 col-sm-push-2 col-xs-4 col-xs-push-2 onec" id="phelp">
               <img src="images/help.png" width="100%" data-toggle="tooltip" data-placement="bottom" title="ONLINE-консультации">
             </div>
 
-            <div class="col-md-3 col-md-push-0 col-sm-4 col-sm-push-2 col-xs-4 col-xs-push-2 onec">
+            <div class="col-md-3 col-md-push-0 col-sm-4 col-sm-push-2 col-xs-4 col-xs-push-2 onec" id="psupport">
               <img src="images/support.png" width="100%" data-toggle="tooltip" data-placement="bottom" title="Администрирование локальных вычислительных сетей, программного и аппаратного обеспечения">
             </div>
 
         </div>
         
+      </div>
+      <div class="container">
+        <div class="row">
+             <div id="1c" style="display:none;" class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
+                  <center><h3>"Фирма 1C"</h3></center>
+                  <p class="text-justify">Российская компания, специализирующаяся на дистрибуции, поддержке и разработке компьютерных программ и баз данных делового и домашнего назначения.<hr>Одним из важнейших преимуществ программ 1C для конечного пользователя является возможность их полной адаптации под конкретную специфику деятельности компании-заказчика.<hr> Компания занимается внедрением, конфигурированием и сопровождением типовых продуктов 1С:Преприятие, которое может включать в себя разработку конфигурации основываясь на ее деятельности, а не изменении типовой конфигурации </p>
+              </div>
+              <div id="webs" style="display:none;" class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
+                  <center><h3>"Web-разработка"</h3></center>
+                  <p class="text-justify">Процесс создания веб-сайта или веб-приложения. Основными этапами процесса являются веб-дизайн, вёрстка страниц, программирование для веб на стороне клиента и сервера, а также конфигурирование веб-сервера.<hr> Наша компания предлогает услуги разработки web-сайтов и порталов, а так же их внедрение и сопровождение; создание индивидуальных, оригинальных дизайнов и логотипов</p>
+              </div>
+              <div id="prog" style="display:none;" class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
+                  <center><h3>"Программная продукция"</h3></center>
+                  <p class="text-justify">Род деятельности, направленный на создание и поддержание работоспособности, качества и надежности программного обеспечения, используя технологии, методологию и практики из информатики, управления проектами, математики, инженерии и т.д. <hr> При разрабтке программного обеспечения наша компания оказывает полный сперктр услуг, начиная с сотавления технического задания и заканчивая внедрением, с последубщи сопровождением.</p>
+              </div>
+              <div id="software" style="display:none;" class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
+                  <center><h3>"ПО для сайтов и порталов"</h3></center>
+                  <p class="text-justify">Компнаания "EKZIS" выполнет сбоку и становку программного обеспечения для сатйов и порталов. Готовый продукт сопровождется и монитортся специалистами нашей компании.<hr> После разработки ПО наша компания оказывает бесплатное гарантийное сопровождение от двух месяцев (более двух - по договору), в которое входит возможностьдоработки и обучение персонала. Так же осуществляетс гарантийное сопровождение ПО по сниженным ценам </p>
+              </div>
+              <div id="su" style="display:none;" class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
+                  <center><h3>"Системы учета"</h3></center>
+                  <p class="text-justify">Представляет собой упорядоченную систему сбора, регистрации и обобщения информации в денежном выражении об имуществе, обязательствах организации и их движении путем сплошного, непрерывного и документального учета всех хозяйственных операций.<hr> Мы занимаемся оптимиацей ведения учета, обучением, консультациями и разработкой инструкций</p>
+              </div>
+              <div id="poly" style="display:none;" class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
+                  <center><h3>"Полиграфия"</h3></center>
+                  <p class="text-justify">Область промышленности, занимающаяся изготовлением печатной продукции, а именно книжно-журнальной, деловой, газетной, этикеточной и упаковочной продукции.<hr>"EKZIS" оказывает ряд полиграфических услуг, таких как: продажа, ремон и заправка картриджей.<hr></p>
+                  <h4>Прайс лист</h4>
+                  <ul>
+                    <li>Заправка картриджей от 1000 тг</li>
+                    <li>Замена селеного вала от 900 тг</li>
+                    <li>Замена магнитного вала от 800 тг</li>
+                    <li>Новые картриджи от 2500 тг</li>
+                    <li>Картридж на замену от 2000 тг</li>
+                  </ul>
+              </div>
+              <div id="help" style="display:none;" class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
+                  <center><h3>"Online-консультация"</h3></center>
+                  <p class="text-justify"> Системы ONLINE-консультаций помогают решить вопрос, возникший нюанс – в течение короткого промежутка времени. Так как потребитель работает в различных сферах деятельности, с различными компаниями время ожидания прибытия специалиста на место работы очень важно, так же как и время работы специалиста. Чем быстрее специалист поймет возникшую проблему-тем быстрее предоставит варианты решения этой проблемы. </p>
+              </div>
+              <div id="support" style="display:none;" class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
+                  <center><h3>"Администрирование"</h3></center>
+                  <p class="text-justify"> Обеспечение исправной работы компьютерной техники, сети и программного обеспечения. <hr> Предоставляем услуги: информационно-технического спровождения, полный спекрт защиты информации, восстановление данных, кофигурирование и прокладка ЛВС, сопровождения всех продуктов компании и организация гарантийного обслуживания. </p>
+              </div>
+        </div>
       </div>
 
       <div class="container about" id="about">
@@ -119,51 +165,53 @@
         <div class="caption">
           <h1>Наши партнеры</h1> 
         </div>
-        <div class="row ">
 
-            <div class="col-md-2 col-md-push-0 col-sm-2 col-sm-push-1 col-xs-4 col-xs-push-1 part">
-              <img src="images/apple.png" width="100%">
-            </div> 
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
 
-            <div class="col-md-2 col-md-push-0 col-sm-2 col-sm-push-1 col-xs-4 col-xs-push-2 part">
-              <img src="images/kaspersky.png" width="100%">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                 
+                  <div class="item active">
+                    
+                    <div class="container rama ">
+                      <div class="row">
+                          <img class="col-md-3 col-sm-3 col-xs-3" src="images/kaspersky.png" alt="...">
+                          <img class="col-md-3 col-sm-3 col-xs-3" src="images/adobe.png" alt="...">
+                          <img class="col-md-3 col-sm-3 col-xs-3" src="images/microsoft.png" alt="...">
+                          <img class="col-md-3 col-sm-3 col-xs-3 mak" src="images/mak.png" alt="...">
+                      </div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="item">
+                    <div class="container rama ">
+                      <div class="row">
+                          <img class="col-md-4 col-sm-4 col-xs-4 friends" src="images/1company.png" alt="...">
+                          <img class="col-md-4 col-sm-4 col-xs-4 friends" src="images/onelab.png" alt="...">
+                          <img class="col-md-4 col-sm-4 col-xs-4 friends" src="images/eset.png" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
             </div>
 
-            <div class="col-md-2 col-md-push-0 col-sm-2 col-sm-push-1 col-xs-4 col-xs-push-1 part"> 
-              <img src="images/microsoft.png" width="100%">
-            </div>
-            <!-- Https://vk.com/lenpolina -->
-            <div class="col-md-2 col-md-push-0 col-sm-2 col-sm-push-1 col-xs-4 col-xs-push-2 part ">
-              <img src="images/adobe.png" width="100%">
-            </div>
-
-            <div class="col-md-2 col-md-push-0 col-sm-3 col-sm-push-1 col-xs-4 col-xs-push-1 part little">
-              <img src="images/1company.png" width="100%">
-            </div>
-
-            <div class="col-md-4 col-md-push-1 col-sm-3 col-sm-push-1 col-xs-3 col-xs-push-1 part rect">
-              <img src="images/eset.png" width="100%">
-            </div>
-
-            <div class="col-md-4 col-md-push-2 col-sm-3 col-sm-push-1 col-xs-3 col-xs-push-1 part rect">
-              <img src="images/onelab.png" width="100%">
-            </div>
-            
-        </div>
-      </div>
-
-      <div class="container online" id="help">
-        <div class="ontext">
-            
-            <div class="help">
-              <img src="images/customer.png" width="100%">
-            </div>
-            <div class="infor">
-            <h1><center>ONLINE-консультации</center></h1>
-            <h4 class="textabout">Системы ONLINE-консультаций помогают решить вопрос, возникший нюанс – в течение короткого промежутка времени. Так как потребитель работает в различных сферах деятельности, с различными компаниями время ожидания прибытия специалиста на место работы очень важно, так же как и время работы специалиста. Чем быстрее специалист поймет возникшую проблему-тем быстрее предоставит варианты решения этой проблемы.
-            </h4>
-            </div>
-        </div>        
+     
       </div>
 
     <footer class="footer" id="contact">
@@ -185,5 +233,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="mp/jquery.modal.min.js"></script>
   </body>
 </html>
